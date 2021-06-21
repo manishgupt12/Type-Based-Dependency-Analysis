@@ -1,0 +1,18 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Fri Mar 10 11:42:17 2017
+     Path: "C:\Users\manis\Dropbox\CSE687\Project2\CodeAnalyzerEx\Analyzer"
+     Args: *.h, *.cpp, /f, /r
+                                                                               
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             Executive.cpp    function                  processSourceCode     384      95       8
+             Executive.cpp    function                               main     891      71       6
+
+
+
+    searched     4 dirs
+   processed     2 files
