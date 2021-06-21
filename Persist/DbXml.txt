@@ -1,0 +1,69 @@
+
+  <noSqlDb>
+    <record>
+      <key>
+        test1
+      </key>
+      <name>
+        test1
+      </name>
+      <category>
+        test
+      </category>
+      <dateTime>
+        Sat Feb 18 20:43:30 2017
+      </dateTime>
+      <children>
+      </children>
+      <data>
+        test1 string
+      </data>
+    </record>
+    <record>
+      <key>
+        test2
+      </key>
+      <name>
+        test2
+      </name>
+      <category>
+        test
+      </category>
+      <dateTime>
+        Sat Feb 18 20:43:30 2017
+      </dateTime>
+      <children>
+        <childKey>
+          test1
+        </childKey>
+      </children>
+      <data>
+        test2 string
+      </data>
+    </record>
+    <record>
+      <key>
+        test3
+      </key>
+      <name>
+        test3
+      </name>
+      <category>
+        test
+      </category>
+      <dateTime>
+        Sat Feb 18 20:43:30 2017
+      </dateTime>
+      <children>
+        <childKey>
+          test1
+        </childKey>
+        <childKey>
+          test2
+        </childKey>
+      </children>
+      <data>
+        test3 string
+      </data>
+    </record>
+  </noSqlDb>
